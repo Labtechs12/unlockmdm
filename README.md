@@ -1,5 +1,3 @@
-# skipmdm.com
-
 1. Shutdown the device
 2. **Initial Disk Format**
 	1. Enter Recovery mode - 1st time
@@ -35,8 +33,3 @@
 	3. Type to disable SIP: `csrutil disable`
 	4. When done either type `reboot` or restart the device
 8. Login using the newly created username
-
-* https://github.com/skipmdm-phoenixbot/skipmdm.com
-* https://gist.github.com/henrik242/65d26a7deca30bdb9828e183809690bd?permalink_comment_id=4710662#gistcomment-4710662
-* https://gist.github.com/sghiassy/a3927405cf4ffe81242f4ecb01c382ac?permalink_comment_id=4591775
-
