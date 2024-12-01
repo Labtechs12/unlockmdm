@@ -1,3 +1,5 @@
+**Skip the MDM process on M series Macs.**
+
 1. Shutdown the device
 2. **Initial Disk Format**
 	1. Enter Recovery mode - 1st time
