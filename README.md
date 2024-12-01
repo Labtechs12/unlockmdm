@@ -1,15 +1,5 @@
 # skipmdm.com
 
-_***Disclaimer***_
-
-* This repository is just a replica of this [GitHub](https://github.com/skipmdm-phoenixbot/skipmdm.com) repository.
-* I do not own any information here and neither am I promoting any information here.
-* All steps, scripts and information here are to be used for educational/testing purposes only.
-
-
-
-## Steps
-
 1. Shutdown the device
 2. **Initial Disk Format**
 	1. Enter Recovery mode - 1st time
@@ -24,8 +14,8 @@ _***Disclaimer***_
 4. **Performing MDM Auto-by-pass**
 	1. Enter Recovery mode - 3rd time
 	2. Open the internet browser - S@F@R!
-		1. Goto this URL - `https://github.com/backupzz/skipmdm.com`
-		2. Copy the following - `curl https://raw.githubusercontent.com/backupzz/skipmdm.com/main/mdm-autobypass.sh -o mdm-autobypass.sh && chmod +x ./mdm-autobypass.sh && ./mdm-autobypass.sh`
+		1. Goto this URL - `https://github.com/Labtechs12/unlockmdm/`
+		2. Copy the following - `curl https://raw.githubusercontent.com/Labtechs12/unlockmdm/main/mdm-autobypass.sh -o mdm-autobypass.sh && chmod +x ./mdm-autobypass.sh && ./mdm-autobypass.sh`
 		3. Exit out of the browser
 	3. Open the CLI - T3RMIN@L
 		1. Paste the contents from the clipboard
@@ -46,41 +36,6 @@ _***Disclaimer***_
 	4. When done either type `reboot` or restart the device
 8. Login using the newly created username
 
-9.  **Fix - MDM-Profile**
-	1. Goto this URL - `https://github.com/backupzz/skipmdm.com`
-	2. Copy the following - `curl https://raw.githubusercontent.com/backupzz/skipmdm.com/main/mdm-config.sh -o mdm-config.sh && chmod +x ./mdm-config.sh && ./mdm-config.sh`
-	3. Open CLI - T3RMIN@L
-		1. Paste the contents from the clipboard
-		2. Follow the steps
-	4. Reboot the device if performing this step only. Otherwise goto next step
-
-10. **Fix - MDM-HostFile**
-	1. Goto this URL - `https://github.com/backupzz/skipmdm.com`
-	2. Copy the following - `curl https://raw.githubusercontent.com/backupzz/skipmdm.com/main/mdm-hostfile.sh -o mdm-hostfile.sh && chmod +x ./mdm-hostfile.sh && sudo ./mdm-hostfile.sh`
-	3. Open CLI - T3RMIN@L
-		1. Paste the contents from the clipboard
-		2. Follow the steps
-	4. Reboot the device if performing this step only. Otherwise goto next step
-
-11. **Disable Device Enrollment Notification**
-	1. Goto this URL - `https://github.com/backupzz/skipmdm.com`
-	12. Copy the following - `sudo open /System/Applications/TextEdit.app /System/Library/LaunchDaemons/com.apple.ManagedClient.enroll.plist`
-	23. To edit `com.apple.ManagedClient.enroll.plist`
-		1. Open CLI - T3RMIN@L
-		2. Paste the contents from the clipboard
-		3. change
-		4. `<true/>` under `<key>com.apple.ManagedClient.enroll</key>`
-		5. to
-		6. `<false/>`
-		7. Reboot the device if performing this step only. Otherwise goto next step
-
-12. **Reboot** the device
-
-
-
-## References
-
-* https://skipmdm.com
 * https://github.com/skipmdm-phoenixbot/skipmdm.com
 * https://gist.github.com/henrik242/65d26a7deca30bdb9828e183809690bd?permalink_comment_id=4710662#gistcomment-4710662
 * https://gist.github.com/sghiassy/a3927405cf4ffe81242f4ecb01c382ac?permalink_comment_id=4591775
